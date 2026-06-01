@@ -1,0 +1,28 @@
+version = 1
+
+[[annotations]]
+path = "**/*.patch"
+precedence = "aggregate"
+SPDX-FileCopyrightText = [
+  "Tortoise-WoW <https://github.com/Penqle/tortoise-wow>",
+  "2026 Michael Serajnik <https://github.com/mserajnik>",
+]
+SPDX-License-Identifier = "GPL-2.0-or-later"
+
+[[annotations]]
+path = "LICENSE"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Tortoise-WoW <https://github.com/Penqle/tortoise-wow>"
+SPDX-License-Identifier = "GPL-2.0-or-later"
+
+[[annotations]]
+path = "README.md"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Michael Serajnik <https://github.com/mserajnik>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = ".dprint.jsonc"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Michael Serajnik <https://github.com/mserajnik>"
+SPDX-License-Identifier = "CC0-1.0"

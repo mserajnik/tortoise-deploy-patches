@@ -1,0 +1,16 @@
+diff --git a/src/framework/Network/MangosSocketMgrImpl.h b/src/framework/Network/MangosSocketMgrImpl.h
+index 663c571..890ed28 100644
+--- a/src/framework/Network/MangosSocketMgrImpl.h
++++ b/src/framework/Network/MangosSocketMgrImpl.h
+@@ -307,9 +307,9 @@ void MangosSocketMgr<SocketType>::StopNetwork()
+             m_NetThreads[i].Stop();
+     }
+ 
+-//#ifdef _WIN32
++#ifdef _WIN32
+     Wait();
+-//#endif
++#endif
+ }
+ 
+ template <typename SocketType>
