@@ -12,8 +12,8 @@ The patches are strictly for:
 - Making Docker-specific adjustments that would not be appropriate to include
   upstream.
 
-At no point will a patch be added that changes the behavior of the server or
-otherwise alters its functionality.
+Patches only make the server build and run as intended. None of them changes
+gameplay.
 
 Once a patch is no longer needed, it will be removed from this repository.
 Therefore, there may be times when this repository contains no patches at all.
