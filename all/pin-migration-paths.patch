@@ -17,7 +17,7 @@ diff --git a/src/shared/Database/AutoUpdater.cpp b/src/shared/Database/AutoUpdat
 index 8a9debc..8177dda 100644
 --- a/src/shared/Database/AutoUpdater.cpp
 +++ b/src/shared/Database/AutoUpdater.cpp
-@@ -381,11 +381,11 @@ namespace DBUpdater
+@@ -381,9 +381,9 @@ namespace DBUpdater
              return true;
          }
  
@@ -32,5 +32,3 @@ index 8a9debc..8177dda 100644
 +        std::string worldUpdateFolder = "world";
 +        bool sortByName = true;
          path folderPath{ pathString };
- 
- 
