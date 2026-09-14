@@ -20,17 +20,15 @@ Therefore, there may be times when this repository contains no patches at all.
 
 ## Layout
 
-Tortoise-WoW is built from two branches. Patches are organized so that the same
-source can be shared across the resulting builds while still allowing
-build-specific adjustments:
+Patches are organized by which images they apply to. Only the server image is
+patched; the database image clones Tortoise-WoW for its SQL alone.
 
-- `all/*.patch` is applied to every build.
-- `stable/*.patch` is applied only to the `stable` build (the `main` branch).
-- `unstable/*.patch` is applied only to the `unstable` build (the `1181dev`
-  branch).
+- `all/*.patch` is applied to every server image.
+- `base/*.patch` is applied to every server image built with the `base` patch
+  set. Tortoise-WoW has one upstream branch, so that is every server image
+  today.
 
-The build-specific directories are optional; create them only when an actual
-patch needs a home.
+`base/` is optional. Create it only when an actual patch needs a home.
 
 ## A note on licensing (`GPL-2.0-or-later` vs `AGPL-3.0-or-later`)
 
