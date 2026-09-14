@@ -4,7 +4,7 @@ version = 1
 path = "**/*.patch"
 precedence = "aggregate"
 SPDX-FileCopyrightText = [
-  "Tortoise-WoW <https://github.com/Penqle/tortoise-wow>",
+  "Tortoise-WoW <https://github.com/tortoise-wow/tortoise-wow>",
   "2026 Michael Serajnik <https://github.com/mserajnik>",
 ]
 SPDX-License-Identifier = "GPL-2.0-or-later"
@@ -12,7 +12,7 @@ SPDX-License-Identifier = "GPL-2.0-or-later"
 [[annotations]]
 path = "LICENSE"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Tortoise-WoW <https://github.com/Penqle/tortoise-wow>"
+SPDX-FileCopyrightText = "Tortoise-WoW <https://github.com/tortoise-wow/tortoise-wow>"
 SPDX-License-Identifier = "GPL-2.0-or-later"
 
 [[annotations]]

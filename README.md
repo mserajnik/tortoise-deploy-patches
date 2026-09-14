@@ -63,7 +63,7 @@ This project follows the [REUSE specification][reuse-spec].
 
 [badge-lint-status]: https://github.com/mserajnik/tortoise-deploy-patches/actions/workflows/lint.yaml/badge.svg
 [badge-lint-status-url]: https://github.com/mserajnik/tortoise-deploy-patches/actions/workflows/lint.yaml
-[tortoise-wow]: https://github.com/Penqle/tortoise-wow
+[tortoise-wow]: https://github.com/tortoise-wow/tortoise-wow
 [tortoise-deploy]: https://github.com/mserajnik/tortoise-deploy
 [license-agpl-3.0-or-later]: LICENSES/AGPL-3.0-or-later.txt
 [license-gpl-2.0-or-later]: LICENSES/GPL-2.0-or-later.txt
